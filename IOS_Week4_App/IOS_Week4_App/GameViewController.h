@@ -10,4 +10,22 @@
 
 @interface GameViewController : UIViewController
 
+{
+    IBOutlet UISegmentedControl *sgDiff;
+    IBOutlet UILabel *lbDiff;
+    IBOutlet UILabel *lbLevel;
+    IBOutlet UILabel *lbScore;
+    IBOutlet UILabel *lbTime;
+    
+    
+    
+}
+
+@property (strong,nonatomic) IBOutlet UISegmentedControl *sgDiff;
+@property (strong,nonatomic) IBOutlet UILabel *lbDiff;
+@property (strong,nonatomic) IBOutlet UILabel *lbLevel;
+@property (strong,nonatomic) IBOutlet UILabel *lbScore;
+@property (strong,nonatomic) IBOutlet UILabel *lbTime;
+
 @end
+

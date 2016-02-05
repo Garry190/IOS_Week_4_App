@@ -13,10 +13,35 @@
 @end
 
 @implementation GameViewController
+@synthesize lbDiff,lbLevel,lbScore,lbTime,sgDiff;
+
+-(IBAction)segmentDidChange:(id)sender
+{
+    
+    [self updateDifficulty];
+    
+}
+
+-(void)updateDifficulty{
+    NSInteger diff=sgDiff.selectedSegmentIndex;
+    if(diff==0){
+        [lbDiff setText:@"Difficulty: Easy"];
+    }
+    else if(diff==1){
+        [lbDiff setText:@"Difficulty: Medium"];
+    }
+    else{
+        [lbDiff setText:@"Difficulty: Hard"];
+    }
+}
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    [lbLevel setText:@"Level 5"];
+    [lbScore setText:@"Score: 365, 321"];
+    [lbLevel setText:@"Time: 54"];
+    
 }
 
 - (void)didReceiveMemoryWarning {

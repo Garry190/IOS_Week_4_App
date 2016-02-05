@@ -20,6 +20,9 @@
 		AECBF4471C60EADE00D23E31 /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AECBF4461C60EADE00D23E31 /* GameViewController.m */; };
 		AECBF44A1C60EAFB00D23E31 /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AECBF4491C60EAFB00D23E31 /* SettingsViewController.m */; };
 		AECBF44D1C60EB2600D23E31 /* AboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AECBF44C1C60EB2600D23E31 /* AboutViewController.m */; };
+		AECBF4511C60EFBF00D23E31 /* about.png in Resources */ = {isa = PBXBuildFile; fileRef = AECBF44E1C60EFBF00D23E31 /* about.png */; };
+		AECBF4521C60EFBF00D23E31 /* play_button.png in Resources */ = {isa = PBXBuildFile; fileRef = AECBF44F1C60EFBF00D23E31 /* play_button.png */; };
+		AECBF4531C60EFBF00D23E31 /* settings.png in Resources */ = {isa = PBXBuildFile; fileRef = AECBF4501C60EFBF00D23E31 /* settings.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,6 +46,9 @@
 		AECBF4491C60EAFB00D23E31 /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SettingsViewController.m; path = IOS_Week4_App/SettingsViewController.m; sourceTree = "<group>"; };
 		AECBF44B1C60EB2600D23E31 /* AboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AboutViewController.h; path = IOS_Week4_App/AboutViewController.h; sourceTree = "<group>"; };
 		AECBF44C1C60EB2600D23E31 /* AboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AboutViewController.m; path = IOS_Week4_App/AboutViewController.m; sourceTree = "<group>"; };
+		AECBF44E1C60EFBF00D23E31 /* about.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = about.png; sourceTree = "<group>"; };
+		AECBF44F1C60EFBF00D23E31 /* play_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = play_button.png; sourceTree = "<group>"; };
+		AECBF4501C60EFBF00D23E31 /* settings.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = settings.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +113,9 @@
 		AECBF43A1C60E97C00D23E31 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				AECBF44E1C60EFBF00D23E31 /* about.png */,
+				AECBF44F1C60EFBF00D23E31 /* play_button.png */,
+				AECBF4501C60EFBF00D23E31 /* settings.png */,
 				AECBF43D1C60E9F300D23E31 /* but1.jpg */,
 				AECBF43E1C60E9F300D23E31 /* but2.png */,
 				AECBF43F1C60E9F300D23E31 /* but3.jpg */,
@@ -203,9 +212,12 @@
 				AECBF4431C60E9F300D23E31 /* but3.jpg in Resources */,
 				AECBF4421C60E9F300D23E31 /* but2.png in Resources */,
 				AECBF42F1C60E8D400D23E31 /* Assets.xcassets in Resources */,
+				AECBF4521C60EFBF00D23E31 /* play_button.png in Resources */,
 				AECBF42D1C60E8D400D23E31 /* Main.storyboard in Resources */,
+				AECBF4531C60EFBF00D23E31 /* settings.png in Resources */,
 				AECBF4411C60E9F300D23E31 /* but1.jpg in Resources */,
 				AECBF4441C60E9F300D23E31 /* rename.png in Resources */,
+				AECBF4511C60EFBF00D23E31 /* about.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
